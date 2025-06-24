@@ -1,0 +1,355 @@
+earching for markdown files in: /home/ed/Insync/e.f.bird@outlook.com/OneDrive/Dev/__phd_code__/markdown_import
+Found 24 markdown file(s):
+  - Save one drive files to external HDD.md
+  - Ideas.md
+  - Best dumb bell exercise for weight loss and belly .md
+  - Speak to Rosa about aysha  and promise.md
+  - Best exercises for belly fat.md
+  - Look at induction process and canvas module setup.md
+  - Install beekeeper studio for Linux.md
+  - Get chatgpt to provide quotes (see below).md
+  - Best tool for weeding.md
+  - Best weed killer for pets.md
+  - Read council emails and write blog!.md
+  - Student engagement _ admin, life skills, time mana.md
+  - Tech first _ cyber first in schools very effective.md
+  - AI test.md
+  - How to bury coins in garden _.md
+  - Psychology , hacking, HCI, AI.md
+  - Include Student Engagement group notes in TEF fold.md
+  - IBM skills build.md
+  - Write python app to collect markdown files and col.md
+  - Local community forst responders WWm ambulance ser.md
+  - Look into Pearson International degree finder.md
+  - School GA coordinator.md
+  - Add new courses to spreadsheet course plan (see be.md
+  - Keep David Liewes email account open until Septemb.md
+
+============================================================
+Reading all markdown files...
+============================================================
+✓ Successfully read: Save one drive files to external HDD.md
+✓ Successfully read: Ideas.md
+✓ Successfully read: Best dumb bell exercise for weight loss and belly .md
+✓ Successfully read: Speak to Rosa about aysha  and promise.md
+✓ Successfully read: Best exercises for belly fat.md
+✓ Successfully read: Look at induction process and canvas module setup.md
+✓ Successfully read: Install beekeeper studio for Linux.md
+✓ Successfully read: Get chatgpt to provide quotes (see below).md
+✓ Successfully read: Best tool for weeding.md
+✓ Successfully read: Best weed killer for pets.md
+✓ Successfully read: Read council emails and write blog!.md
+✓ Successfully read: Student engagement _ admin, life skills, time mana.md
+✓ Successfully read: Tech first _ cyber first in schools very effective.md
+✓ Successfully read: AI test.md
+✓ Successfully read: How to bury coins in garden _.md
+✓ Successfully read: Psychology , hacking, HCI, AI.md
+✓ Successfully read: Include Student Engagement group notes in TEF fold.md
+✓ Successfully read: IBM skills build.md
+✓ Successfully read: Write python app to collect markdown files and col.md
+✓ Successfully read: Local community forst responders WWm ambulance ser.md
+✓ Successfully read: Look into Pearson International degree finder.md
+✓ Successfully read: School GA coordinator.md
+✓ Successfully read: Add new courses to spreadsheet course plan (see be.md
+✓ Successfully read: Keep David Liewes email account open until Septemb.md
+
+============================================================
+RESULTS
+============================================================
+
+--------------------------------------------------
+File: Save one drive files to external HDD.md
+Size: 128 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Save one drive files to external HDD
+  3: updated: 2025-06-23 08:02:06Z
+  4: created: 2025-06-23 08:01:50Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Ideas.md
+Size: 562 characters, 14 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Ideas
+  3: updated: 2025-06-19 07:13:56Z
+  4: created: 2025-06-19 07:07:54Z
+  5: completed?: no
+  ... (9 more lines)
+
+--------------------------------------------------
+File: Best dumb bell exercise for weight loss and belly .md
+Size: 147 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Best dumb bell exercise for weight loss and belly fat ?
+  3: updated: 2025-06-23 11:05:36Z
+  4: created: 2025-06-23 11:05:18Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Speak to Rosa about aysha  and promise.md
+Size: 130 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Speak to Rosa about aysha  and promise
+  3: updated: 2025-06-23 11:02:34Z
+  4: created: 2025-06-23 11:02:21Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Best exercises for belly fat.md
+Size: 120 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Best exercises for belly fat
+  3: updated: 2025-06-23 11:05:51Z
+  4: created: 2025-06-23 11:05:42Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Look at induction process and canvas module setup.md
+Size: 203 characters, 10 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Look at induction process and canvas module setup
+  3: updated: 2025-06-20 08:07:52Z
+  4: created: 2025-06-20 08:07:41Z
+  5: latitude: 52.48624300
+  ... (5 more lines)
+
+--------------------------------------------------
+File: Install beekeeper studio for Linux.md
+Size: 126 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Install beekeeper studio for Linux
+  3: updated: 2025-06-23 06:59:39Z
+  4: created: 2025-06-23 06:59:25Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Get chatgpt to provide quotes (see below).md
+Size: 344 characters, 15 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Get chatgpt to provide quotes (see below)
+  3: updated: 2025-06-10 15:13:25Z
+  4: created: 2025-06-10 15:12:32Z
+  5: latitude: 52.48624300
+  ... (10 more lines)
+
+--------------------------------------------------
+File: Best tool for weeding.md
+Size: 113 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Best tool for weeding
+  3: updated: 2025-06-23 11:03:47Z
+  4: created: 2025-06-23 11:03:40Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Best weed killer for pets.md
+Size: 117 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Best weed killer for pets
+  3: updated: 2025-06-23 11:04:06Z
+  4: created: 2025-06-23 11:03:57Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Read council emails and write blog!.md
+Size: 127 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Read council emails and write blog!
+  3: updated: 2025-06-23 12:28:09Z
+  4: created: 2025-06-23 12:27:41Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Student engagement _ admin, life skills, time mana.md
+Size: 164 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: 'Student engagement : admin, life skills, time management , organisized'
+  3: updated: 2025-06-04 08:08:11Z
+  4: created: 2025-06-04 08:07:07Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Tech first _ cyber first in schools very effective.md
+Size: 149 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Tech first / cyber first in schools very effective model?
+  3: updated: 2025-06-10 13:43:53Z
+  4: created: 2025-06-10 13:43:24Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: AI test.md
+Size: 260 characters, 16 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: AI test
+  3: updated: 2025-06-23 14:47:57Z
+  4: created: 2025-06-23 14:47:33Z
+  5: latitude: 52.48624300
+  ... (11 more lines)
+
+--------------------------------------------------
+File: How to bury coins in garden _.md
+Size: 121 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: How to bury coins in garden ?
+  3: updated: 2025-06-23 07:00:20Z
+  4: created: 2025-06-23 07:00:10Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Psychology , hacking, HCI, AI.md
+Size: 121 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Psychology , hacking, HCI, AI
+  3: updated: 2025-06-04 07:38:05Z
+  4: created: 2025-06-04 07:37:37Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Include Student Engagement group notes in TEF fold.md
+Size: 206 characters, 10 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Include Student Engagement group notes in TEF folder
+  3: updated: 2025-05-29 14:50:17Z
+  4: created: 2025-05-29 14:50:06Z
+  5: latitude: 52.48624300
+  ... (5 more lines)
+
+--------------------------------------------------
+File: IBM skills build.md
+Size: 108 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: IBM skills build
+  3: updated: 2025-06-10 13:42:55Z
+  4: created: 2025-06-10 13:42:47Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Write python app to collect markdown files and col.md
+Size: 240 characters, 12 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: >-
+  3:   Write python app to collect markdown files and collate to single file in
+  4:   Python
+  5: updated: 2025-06-23 12:10:51Z
+  ... (7 more lines)
+
+--------------------------------------------------
+File: Local community forst responders WWm ambulance ser.md
+Size: 154 characters, 8 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: 'Local community forst responders WWm ambulance service '
+  3: updated: 2025-05-04 10:47:33Z
+  4: created: 2025-05-04 10:47:00Z
+  5: completed?: no
+  ... (3 more lines)
+
+--------------------------------------------------
+File: Look into Pearson International degree finder.md
+Size: 199 characters, 10 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Look into Pearson International degree finder
+  3: updated: 2025-06-17 11:25:45Z
+  4: created: 2025-06-17 11:25:37Z
+  5: latitude: 52.48624300
+  ... (5 more lines)
+
+--------------------------------------------------
+File: School GA coordinator.md
+Size: 116 characters, 7 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: 'School GA coordinator '
+  3: updated: 2025-06-23 10:01:59Z
+  4: created: 2025-06-23 10:01:49Z
+  5: completed?: no
+  ... (2 more lines)
+
+--------------------------------------------------
+File: Add new courses to spreadsheet course plan (see be.md
+Size: 471 characters, 15 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Add new courses to spreadsheet course plan (see below)
+  3: updated: 2025-04-11 13:49:31Z
+  4: created: 2025-04-11 13:49:19Z
+  5: latitude: 51.67078000
+  ... (10 more lines)
+
+--------------------------------------------------
+File: Keep David Liewes email account open until Septemb.md
+Size: 187 characters, 8 lines
+--------------------------------------------------
+Preview (first 5 lines):
+  1: ---
+  2: title: Keep David Liewes email account open until September
+  3: updated: 2025-06-19 07:58:46Z
+  4: created: 2025-06-19 07:57:34Z
+  5: completed?: no
+  ... (3 more lines)
+
+============================================================
+SUMMARY
+============================================================
+Total files found: 24
+Successfully read: 24
+Failed to read: 0
+Total characters: 4,613
+Total lines: 216
