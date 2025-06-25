@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Files Report</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2c3e50;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .stats {
+            background: #34495e;
+            color: white;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            text-align: center;
+            margin: 10px;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            display: block;
+            color: #3498db;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .file-entry {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .file-entry:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .file-header {
+            background: #ecf0f1;
+            padding: 20px 25px;
+            border-bottom: 1px solid #bdc3c7;
+        }
+        
+        .file-title {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .file-meta {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .meta-item {
+            background: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            color: #7f8c8d;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .preview-section {
+            padding: 25px;
+        }
+        
+        .preview-title {
+            font-size: 1em;
+            color: #34495e;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .preview-lines {
+            background: #2c3e50;
+            color: #ecf0f1;  
+            padding: 20px;
+            border-radius: 6px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.9em;
+            line-height: 1.4;
+            overflow-x: auto;
+        }
+        
+        .preview-line {
+            margin-bottom: 5px;
+            white-space: pre-wrap;
+        }
+        
+        .line-number {
+            color: #3498db;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .remaining-lines {
+            margin-top: 15px;
+            padding: 10px 15px;
+            background: #e8f4f8;
+            color: #2980b9;
+            border-radius: 4px;
+            font-size: 0.9em;
+            border-left: 3px solid #3498db;
+        }
+        
+        .footer {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 8px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .stats {
+                padding: 15px 20px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .file-meta {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Markdown Files Report</h1>
+            <div class="subtitle">Generated on June 25, 2025 at 07:36 AM</div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number">24</span>
+                <span class="stat-label">Files</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">4,613</span>
+                <span class="stat-label">Characters</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">216</span>
+                <span class="stat-label">Lines</span>
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Save one drive files to external HDD.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 128 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Save one drive files to external HDD</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 08:02:06Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 08:01:50Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Ideas.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 562 characters</span>
+                        <span class="meta-item">📝 14 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Ideas</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-19 07:13:56Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-19 07:07:54Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 9 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Best dumb bell exercise for weight loss and belly .md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 147 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Best dumb bell exercise for weight loss and belly fat ?</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 11:05:36Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 11:05:18Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Speak to Rosa about aysha  and promise.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 130 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Speak to Rosa about aysha  and promise</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 11:02:34Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 11:02:21Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Best exercises for belly fat.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 120 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Best exercises for belly fat</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 11:05:51Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 11:05:42Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Look at induction process and canvas module setup.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 203 characters</span>
+                        <span class="meta-item">📝 10 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Look at induction process and canvas module setup</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-20 08:07:52Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-20 08:07:41Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> latitude: 52.48624300</div>
+                    </div>
+                    <div class="remaining-lines">+ 5 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Install beekeeper studio for Linux.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 126 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Install beekeeper studio for Linux</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 06:59:39Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 06:59:25Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Get chatgpt to provide quotes (see below).md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 344 characters</span>
+                        <span class="meta-item">📝 15 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Get chatgpt to provide quotes (see below)</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-10 15:13:25Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-10 15:12:32Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> latitude: 52.48624300</div>
+                    </div>
+                    <div class="remaining-lines">+ 10 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Best tool for weeding.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 113 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Best tool for weeding</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 11:03:47Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 11:03:40Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Best weed killer for pets.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 117 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Best weed killer for pets</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 11:04:06Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 11:03:57Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Read council emails and write blog!.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 127 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Read council emails and write blog!</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 12:28:09Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 12:27:41Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Student engagement _ admin, life skills, time mana.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 164 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: &#x27;Student engagement : admin, life skills, time management , organisized&#x27;</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-04 08:08:11Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-04 08:07:07Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Tech first _ cyber first in schools very effective.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 149 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Tech first / cyber first in schools very effective model?</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-10 13:43:53Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-10 13:43:24Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">AI test.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 260 characters</span>
+                        <span class="meta-item">📝 16 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: AI test</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 14:47:57Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 14:47:33Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> latitude: 52.48624300</div>
+                    </div>
+                    <div class="remaining-lines">+ 11 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">How to bury coins in garden _.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 121 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: How to bury coins in garden ?</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 07:00:20Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 07:00:10Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Psychology , hacking, HCI, AI.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 121 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Psychology , hacking, HCI, AI</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-04 07:38:05Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-04 07:37:37Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Include Student Engagement group notes in TEF fold.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 206 characters</span>
+                        <span class="meta-item">📝 10 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Include Student Engagement group notes in TEF folder</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-05-29 14:50:17Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-05-29 14:50:06Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> latitude: 52.48624300</div>
+                    </div>
+                    <div class="remaining-lines">+ 5 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">IBM skills build.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 108 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: IBM skills build</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-10 13:42:55Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-10 13:42:47Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Write python app to collect markdown files and col.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 240 characters</span>
+                        <span class="meta-item">📝 12 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: &gt;-</div>
+                        <div class="preview-line"><span class="line-number">3:</span>   Write python app to collect markdown files and collate to single file in</div>
+                        <div class="preview-line"><span class="line-number">4:</span>   Python</div>
+                        <div class="preview-line"><span class="line-number">5:</span> updated: 2025-06-23 12:10:51Z</div>
+                    </div>
+                    <div class="remaining-lines">+ 7 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Local community forst responders WWm ambulance ser.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 154 characters</span>
+                        <span class="meta-item">📝 8 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: &#x27;Local community forst responders WWm ambulance service &#x27;</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-05-04 10:47:33Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-05-04 10:47:00Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 3 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Look into Pearson International degree finder.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 199 characters</span>
+                        <span class="meta-item">📝 10 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Look into Pearson International degree finder</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-17 11:25:45Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-17 11:25:37Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> latitude: 52.48624300</div>
+                    </div>
+                    <div class="remaining-lines">+ 5 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">School GA coordinator.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 116 characters</span>
+                        <span class="meta-item">📝 7 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: &#x27;School GA coordinator &#x27;</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-23 10:01:59Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-23 10:01:49Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 2 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Add new courses to spreadsheet course plan (see be.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 471 characters</span>
+                        <span class="meta-item">📝 15 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Add new courses to spreadsheet course plan (see below)</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-04-11 13:49:31Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-04-11 13:49:19Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> latitude: 51.67078000</div>
+                    </div>
+                    <div class="remaining-lines">+ 10 more lines...</div>
+                </div>
+            </div>
+
+            <div class="file-entry">
+                <div class="file-header">
+                    <div class="file-title">Keep David Liewes email account open until Septemb.md</div>
+                    <div class="file-meta">
+                        <span class="meta-item">📄 187 characters</span>
+                        <span class="meta-item">📝 8 lines</span>
+                    </div>
+                </div>
+                
+                <div class="preview-section">
+                    <div class="preview-title">Preview</div>
+                    <div class="preview-lines">
+                        <div class="preview-line"><span class="line-number">1:</span> ---</div>
+                        <div class="preview-line"><span class="line-number">2:</span> title: Keep David Liewes email account open until September</div>
+                        <div class="preview-line"><span class="line-number">3:</span> updated: 2025-06-19 07:58:46Z</div>
+                        <div class="preview-line"><span class="line-number">4:</span> created: 2025-06-19 07:57:34Z</div>
+                        <div class="preview-line"><span class="line-number">5:</span> completed?: no</div>
+                    </div>
+                    <div class="remaining-lines">+ 3 more lines...</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            Report generated from markdown files analysis
+        </div>
+    </div>
+</body>
+</html>
